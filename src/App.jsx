@@ -5,6 +5,7 @@ import About from "./sections/About";
 import Menu from "./sections/Menu";
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Menu />
       <Testimonials />
       <Contact />
+      <Footer />
     </div>
   );
 };
