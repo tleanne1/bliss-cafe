@@ -4,8 +4,9 @@ import heroImg from "../assets/hero-coffee.jpg"; // Add image to assets folder
 const Hero = () => {
   return (
     <section
-      className="relative bg-cover bg-center bg-no-repeat h-[90vh] flex items-center justify-center px-6"
-      style={{ backgroundImage: `url(${heroImg})` }}
+        id="home"
+        className="relative bg-cover bg-center bg-no-repeat h-[90vh] flex items-center justify-center px-6"
+        style={{ backgroundImage: `url(${heroImg})` }}
     >
       <div className="absolute inset-0 bg-dark/50 z-0" />
       <div className="relative z-10 text-center text-cream max-w-2xl">

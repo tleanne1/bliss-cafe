@@ -3,7 +3,7 @@ import aboutImg from "../assets/about-coffee.jpg"; // Add this image to your ass
 
 const About = () => {
   return (
-    <section className="bg-cream py-20 px-6 md:px-20">
+    <section id="about" className="bg-cream py-20 px-6 md:px-20">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Image */}
         <div className="overflow-hidden rounded-xl shadow-lg">
