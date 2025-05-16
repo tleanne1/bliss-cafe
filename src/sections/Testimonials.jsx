@@ -20,12 +20,12 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="bg-cream py-20 px-6 md:px-20">
+    <section id="testimonials" className="bg-taupe py-20 px-6 md:px-20">
       <div className="max-w-5xl mx-auto text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-display font-bold text-coffee mb-3">
+        <h2 className="text-3xl md:text-4xl font-display font-bold text-espresso mb-3">
           What Our Guests Say
         </h2>
-        <p className="text-dark text-base max-w-xl mx-auto">
+        <p className="text-espresso text-base max-w-xl mx-auto">
           Real experiences from our amazing customers.
         </p>
       </div>
@@ -34,10 +34,10 @@ const Testimonials = () => {
         {testimonials.map((t, idx) => (
           <div
             key={idx}
-            className="bg-white p-6 rounded-xl shadow-card border border-caramel/20"
+            className="bg-cream p-6 rounded-xl shadow-card border border-espresso/10"
           >
-            <p className="text-sm text-dark/90 italic mb-4">"{t.quote}"</p>
-            <h4 className="text-sm font-semibold text-coffee">{t.name}</h4>
+            <p className="text-sm text-espresso/90 italic mb-4">"{t.quote}"</p>
+            <h4 className="text-sm font-semibold text-espresso">{t.name}</h4>
           </div>
         ))}
       </div>

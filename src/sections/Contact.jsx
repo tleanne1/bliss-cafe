@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-caramel text-dark py-20 px-6 md:px-20 text-center"
+      className="bg-mocha text-cream py-20 px-6 md:px-20 text-center"
     >
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
@@ -24,7 +24,7 @@ const Contact = () => {
         </p>
         <a
           href="mailto:hello@blisscafe.com"
-          className="inline-block mt-6 px-6 py-3 bg-dark text-cream rounded-full hover:bg-coffee transition"
+          className="inline-block mt-6 px-6 py-3 bg-cream text-espresso rounded-full hover:bg-taupe transition"
         >
           Contact Us
         </a>

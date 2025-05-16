@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 html, body {
-  @apply bg-cream text-dark;
+  @apply bg-ivory text-espresso;
 }
