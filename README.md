@@ -52,8 +52,6 @@ src/
 
 ## 🧠 Author
 
-## 🧠 Author
-
 **Tracey Buentello**  
 Frontend Developer 
 🔗 [tleanne.dev](https://tleanne.dev) • [LinkedIn](https://linkedin.com/in/tleanne)
